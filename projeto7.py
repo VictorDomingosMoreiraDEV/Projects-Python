@@ -2,7 +2,7 @@ from pygame import mixer
 mixer.init() 
 mixer.music.load("musica_teste.mp3") 
 mixer.music.set_volume(0.7) 
-mixer.music.play() 
+mixer.music.play()  
 while True: 
       
     print("Press 'p' to pause, 'r' to resume") 
